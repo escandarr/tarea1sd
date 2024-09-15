@@ -1,0 +1,8 @@
+protobuf==3.20.1
+grpcio==1.39.0
+grpcio-tools==1.39.0
+redis==3.5.3
+werkzeug==2.0.3
+flask==2.0.3
+redis-py-cluster==2.1.3
+

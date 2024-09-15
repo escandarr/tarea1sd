@@ -1,0 +1,336 @@
+2024-09-15 02:21:56,862 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-15 02:21:56,864 INFO supervisord started with pid 1
+2024-09-15 02:21:57,866 INFO spawned: 'api_service' with pid 7
+2024-09-15 02:21:57,868 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 02:21:57,907 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 02:21:57,979 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 02:21:58,981 INFO spawned: 'api_service' with pid 9
+2024-09-15 02:21:58,983 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 02:21:59,021 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 02:21:59,092 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 02:22:01,095 INFO spawned: 'api_service' with pid 11
+2024-09-15 02:22:01,097 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 02:22:01,137 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 02:22:01,202 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 02:22:04,207 INFO spawned: 'api_service' with pid 13
+2024-09-15 02:22:04,209 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 02:22:04,246 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 02:22:04,311 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 02:22:04,322 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 02:22:05,323 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 02:29:09,873 WARN received SIGTERM indicating exit request
+2024-09-15 02:29:59,212 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-15 02:29:59,214 INFO supervisord started with pid 1
+2024-09-15 02:30:00,217 INFO spawned: 'api_service' with pid 7
+2024-09-15 02:30:00,219 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 02:30:00,263 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 02:30:00,351 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 02:30:01,354 INFO spawned: 'api_service' with pid 9
+2024-09-15 02:30:01,356 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 02:30:01,395 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 02:30:01,469 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 02:30:03,474 INFO spawned: 'api_service' with pid 11
+2024-09-15 02:30:03,475 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 02:30:03,513 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 02:30:03,586 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 02:30:06,592 INFO spawned: 'api_service' with pid 13
+2024-09-15 02:30:06,593 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 02:30:06,630 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 02:30:06,694 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 02:30:06,705 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 02:30:07,707 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 02:30:28,734 WARN received SIGTERM indicating exit request
+2024-09-15 02:31:24,809 INFO Set uid to user 0 succeeded
+2024-09-15 02:31:24,812 INFO supervisord started with pid 1
+2024-09-15 02:31:25,815 INFO spawned: 'api_service' with pid 7
+2024-09-15 02:31:25,817 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 02:31:25,884 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 02:31:25,990 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 02:31:26,993 INFO spawned: 'api_service' with pid 9
+2024-09-15 02:31:26,995 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 02:31:27,032 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 02:31:27,104 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 02:31:29,108 INFO spawned: 'api_service' with pid 11
+2024-09-15 02:31:29,110 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 02:31:29,148 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 02:31:29,220 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 02:31:32,224 INFO spawned: 'api_service' with pid 13
+2024-09-15 02:31:32,226 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 02:31:32,263 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 02:31:32,363 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 02:31:32,382 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 02:31:33,384 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 03:17:43,135 WARN received SIGTERM indicating exit request
+2024-09-15 17:42:50,782 INFO Set uid to user 0 succeeded
+2024-09-15 17:42:50,784 INFO supervisord started with pid 1
+2024-09-15 17:42:51,790 INFO spawned: 'api_service' with pid 7
+2024-09-15 17:42:51,792 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 17:42:51,822 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 17:42:51,888 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 17:42:52,891 INFO spawned: 'api_service' with pid 9
+2024-09-15 17:42:52,893 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 17:42:52,925 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 17:42:52,993 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 17:42:54,996 INFO spawned: 'api_service' with pid 11
+2024-09-15 17:42:54,998 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 17:42:55,026 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 17:42:55,088 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 17:42:58,092 INFO spawned: 'api_service' with pid 13
+2024-09-15 17:42:58,093 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 17:42:58,126 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 17:42:58,182 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 17:42:58,191 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 17:42:59,193 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 17:56:29,200 WARN received SIGTERM indicating exit request
+2024-09-15 17:59:15,103 INFO Set uid to user 0 succeeded
+2024-09-15 17:59:15,105 INFO supervisord started with pid 1
+2024-09-15 17:59:16,107 INFO spawned: 'api_service' with pid 7
+2024-09-15 17:59:16,110 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 17:59:16,152 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 17:59:16,229 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 17:59:17,231 INFO spawned: 'api_service' with pid 9
+2024-09-15 17:59:17,232 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 17:59:17,269 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 17:59:17,367 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 17:59:19,370 INFO spawned: 'api_service' with pid 11
+2024-09-15 17:59:19,372 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 17:59:19,411 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 17:59:19,486 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 17:59:22,493 INFO spawned: 'api_service' with pid 13
+2024-09-15 17:59:22,495 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 17:59:22,537 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 17:59:22,610 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 17:59:22,623 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 17:59:23,625 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 19:29:25,544 WARN received SIGTERM indicating exit request
+2024-09-15 19:38:34,014 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-15 19:38:34,016 INFO supervisord started with pid 1
+2024-09-15 19:38:35,019 INFO spawned: 'api_service' with pid 7
+2024-09-15 19:38:35,021 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 19:38:35,074 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 19:38:35,159 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 19:38:36,162 INFO spawned: 'api_service' with pid 9
+2024-09-15 19:38:36,164 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 19:38:36,200 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 19:38:36,274 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 19:38:38,278 INFO spawned: 'api_service' with pid 11
+2024-09-15 19:38:38,280 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 19:38:38,316 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 19:38:38,389 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 19:38:41,394 INFO spawned: 'api_service' with pid 13
+2024-09-15 19:38:41,395 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 19:38:41,433 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 19:38:41,496 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 19:38:41,506 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 19:38:42,508 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 19:47:05,114 WARN received SIGTERM indicating exit request
+2024-09-15 19:47:05,879 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-15 19:47:05,881 INFO supervisord started with pid 1
+2024-09-15 19:47:06,884 INFO spawned: 'api_service' with pid 7
+2024-09-15 19:47:06,886 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 19:47:06,927 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 19:47:06,998 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 19:47:08,001 INFO spawned: 'api_service' with pid 9
+2024-09-15 19:47:08,003 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 19:47:08,041 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 19:47:08,113 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 19:47:10,117 INFO spawned: 'api_service' with pid 11
+2024-09-15 19:47:10,119 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 19:47:10,158 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 19:47:10,239 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 19:47:13,244 INFO spawned: 'api_service' with pid 13
+2024-09-15 19:47:13,246 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 19:47:13,295 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 19:47:13,379 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 19:47:13,390 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 19:47:14,392 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 19:54:13,913 WARN received SIGTERM indicating exit request
+2024-09-15 19:56:13,193 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-15 19:56:13,195 INFO supervisord started with pid 1
+2024-09-15 19:56:14,197 INFO spawned: 'api_service' with pid 7
+2024-09-15 19:56:14,199 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 19:56:14,240 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 19:56:14,471 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 19:56:15,474 INFO spawned: 'api_service' with pid 9
+2024-09-15 19:56:15,476 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 19:56:15,516 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 19:56:15,705 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 19:56:17,709 INFO spawned: 'api_service' with pid 11
+2024-09-15 19:56:17,711 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 19:56:17,747 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 19:56:17,896 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 19:56:20,902 INFO spawned: 'api_service' with pid 13
+2024-09-15 19:56:20,904 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 19:56:20,942 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 19:56:21,076 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 19:56:21,103 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 19:56:22,105 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 20:03:04,599 WARN received SIGTERM indicating exit request
+2024-09-15 20:03:18,018 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-15 20:03:18,021 INFO supervisord started with pid 1
+2024-09-15 20:03:19,024 INFO spawned: 'api_service' with pid 7
+2024-09-15 20:03:19,027 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 20:03:19,077 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 20:03:19,366 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 20:03:20,369 INFO spawned: 'api_service' with pid 9
+2024-09-15 20:03:20,371 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 20:03:20,413 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 20:03:20,611 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 20:03:22,615 INFO spawned: 'api_service' with pid 11
+2024-09-15 20:03:22,617 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 20:03:22,654 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 20:03:22,801 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 20:03:25,807 INFO spawned: 'api_service' with pid 13
+2024-09-15 20:03:25,809 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 20:03:25,846 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 20:03:25,991 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 20:03:26,019 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 20:03:27,021 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 20:08:00,372 WARN received SIGTERM indicating exit request
+2024-09-15 20:09:32,457 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-15 20:09:32,459 INFO supervisord started with pid 1
+2024-09-15 20:09:33,462 INFO spawned: 'api_service' with pid 7
+2024-09-15 20:09:33,464 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 20:09:33,506 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 20:09:33,713 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 20:09:34,714 INFO spawned: 'api_service' with pid 9
+2024-09-15 20:09:34,717 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 20:09:34,756 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 20:09:34,934 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 20:09:36,937 INFO spawned: 'api_service' with pid 11
+2024-09-15 20:09:36,939 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 20:09:36,978 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 20:09:37,126 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 20:09:40,132 INFO spawned: 'api_service' with pid 13
+2024-09-15 20:09:40,134 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 20:09:40,171 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 20:09:40,305 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 20:09:40,334 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 20:09:41,335 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 20:53:16,159 WARN received SIGTERM indicating exit request
+2024-09-15 21:30:45,621 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-15 21:30:45,623 INFO supervisord started with pid 1
+2024-09-15 21:30:46,626 INFO spawned: 'api_service' with pid 7
+2024-09-15 21:30:46,629 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 21:30:46,657 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:30:46,790 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:30:47,793 INFO spawned: 'api_service' with pid 9
+2024-09-15 21:30:47,794 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 21:30:47,819 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:30:47,933 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:30:49,939 INFO spawned: 'api_service' with pid 11
+2024-09-15 21:30:49,942 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 21:30:49,970 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:30:50,089 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:30:53,098 INFO spawned: 'api_service' with pid 13
+2024-09-15 21:30:53,099 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 21:30:53,129 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:30:53,227 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 21:30:53,250 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:30:54,252 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 21:38:31,827 WARN received SIGTERM indicating exit request
+2024-09-15 21:38:32,761 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-15 21:38:32,762 INFO supervisord started with pid 1
+2024-09-15 21:38:33,768 INFO spawned: 'api_service' with pid 7
+2024-09-15 21:38:33,770 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 21:38:33,796 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:38:33,948 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:38:34,954 INFO spawned: 'api_service' with pid 9
+2024-09-15 21:38:34,956 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 21:38:34,981 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:38:35,113 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:38:37,117 INFO spawned: 'api_service' with pid 11
+2024-09-15 21:38:37,118 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 21:38:37,145 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:38:37,283 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:38:40,291 INFO spawned: 'api_service' with pid 13
+2024-09-15 21:38:40,293 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 21:38:40,318 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:38:40,435 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 21:38:40,456 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:38:41,457 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 21:42:34,740 WARN received SIGTERM indicating exit request
+2024-09-15 21:44:09,830 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-15 21:44:09,831 INFO supervisord started with pid 1
+2024-09-15 21:44:10,837 INFO spawned: 'api_service' with pid 7
+2024-09-15 21:44:10,839 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 21:44:10,866 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:44:11,019 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:44:12,023 INFO spawned: 'api_service' with pid 9
+2024-09-15 21:44:12,028 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 21:44:12,059 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:44:12,190 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:44:14,197 INFO spawned: 'api_service' with pid 11
+2024-09-15 21:44:14,202 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 21:44:14,230 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:44:14,359 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:44:17,367 INFO spawned: 'api_service' with pid 13
+2024-09-15 21:44:17,372 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 21:44:17,403 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:44:17,517 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 21:44:17,536 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:44:18,538 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 21:48:49,868 WARN received SIGTERM indicating exit request
+2024-09-15 21:49:33,113 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-15 21:49:33,114 INFO supervisord started with pid 1
+2024-09-15 21:49:34,120 INFO spawned: 'api_service' with pid 7
+2024-09-15 21:49:34,122 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 21:49:34,151 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:49:34,311 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:49:35,317 INFO spawned: 'api_service' with pid 9
+2024-09-15 21:49:35,319 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 21:49:35,345 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:49:35,486 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:49:37,492 INFO spawned: 'api_service' with pid 11
+2024-09-15 21:49:37,495 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 21:49:37,523 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:49:37,665 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:49:40,673 INFO spawned: 'api_service' with pid 13
+2024-09-15 21:49:40,676 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 21:49:40,704 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:49:40,827 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 21:49:40,845 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:49:41,847 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 21:52:45,054 WARN received SIGTERM indicating exit request
+2024-09-15 21:53:25,723 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-15 21:53:25,725 INFO supervisord started with pid 1
+2024-09-15 21:53:26,731 INFO spawned: 'api_service' with pid 7
+2024-09-15 21:53:26,735 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 21:53:26,762 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:53:26,929 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:53:27,933 INFO spawned: 'api_service' with pid 9
+2024-09-15 21:53:27,938 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 21:53:27,963 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:53:28,105 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:53:30,112 INFO spawned: 'api_service' with pid 11
+2024-09-15 21:53:30,113 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 21:53:30,141 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:53:30,290 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:53:33,298 INFO spawned: 'api_service' with pid 13
+2024-09-15 21:53:33,301 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 21:53:33,329 WARN exited: grpc_service (exit status 2; not expected)
+2024-09-15 21:53:33,457 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 21:53:33,478 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 21:53:34,479 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 22:08:09,640 WARN received SIGTERM indicating exit request
+2024-09-15 22:08:38,120 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-15 22:08:38,122 INFO supervisord started with pid 1
+2024-09-15 22:08:39,128 INFO spawned: 'api_service' with pid 7
+2024-09-15 22:08:39,132 INFO spawned: 'grpc_service' with pid 8
+2024-09-15 22:08:39,234 WARN exited: grpc_service (exit status 1; not expected)
+2024-09-15 22:08:39,321 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 22:08:40,325 INFO spawned: 'api_service' with pid 9
+2024-09-15 22:08:40,327 INFO spawned: 'grpc_service' with pid 10
+2024-09-15 22:08:40,424 WARN exited: grpc_service (exit status 1; not expected)
+2024-09-15 22:08:40,498 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 22:08:42,505 INFO spawned: 'api_service' with pid 11
+2024-09-15 22:08:42,507 INFO spawned: 'grpc_service' with pid 12
+2024-09-15 22:08:42,600 WARN exited: grpc_service (exit status 1; not expected)
+2024-09-15 22:08:42,674 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 22:08:45,683 INFO spawned: 'api_service' with pid 13
+2024-09-15 22:08:45,685 INFO spawned: 'grpc_service' with pid 14
+2024-09-15 22:08:45,777 WARN exited: grpc_service (exit status 1; not expected)
+2024-09-15 22:08:45,841 INFO gave up: grpc_service entered FATAL state, too many start retries too quickly
+2024-09-15 22:08:45,862 WARN exited: api_service (exit status 1; not expected)
+2024-09-15 22:08:46,864 INFO gave up: api_service entered FATAL state, too many start retries too quickly
+2024-09-15 22:38:01,097 WARN received SIGTERM indicating exit request
